@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(29, 38, 48);
+    color: rgb(255, 245, 245);
+}
+
+.Passenger{
+    width: 300px;
+    height: 300px;
+    background: url(./Asset/Passenger.JPG);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+h1{
+    font-size: 100px;
+    margin-left: 3%;
+}
+
+p{
+    font-size: 50px;
+    margin-left: 5%;
+    background-color: rgb(19, 14, 14);
+    display: inline;
+    padding: 1%;
+    border-radius: 5em;
+}
