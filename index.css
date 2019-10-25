@@ -13,6 +13,7 @@ body{
     border-radius: 50%;
     margin-top: 5%;
     margin-left: 5%;
+    display: inline-block;
 }
 
 h1{
