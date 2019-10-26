@@ -1,31 +1,44 @@
-body{
-    background-color: rgb(29, 38, 48);
-    color: rgb(255, 245, 245);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-.Passenger{
-    width: 300px;
-    height: 300px;
-    background: url(./Asset/Passenger.JPG);
-    background-size: 100%;
+.container{
+    width: 37vw;
+    height: 28vw;
+    background: rgba(26, 25, 25, 0.801);
+    margin-left: 1em;
+}
+
+.img{
+    width: 10vw;
+    height: 10vw;
+    background: url("./Asset/Passenger.JPG");
     background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    margin-top: 5%;
-    margin-left: 5%;
-    display: inline-block;
+    background-size: contain;
+    border-radius: 900vw;
+
 }
 
-h1{
-    font-size: 100px;
-    margin-left: 3%;
+.showcase{
+    margin-left: 2em;
+    margin-top: 20px;
+    width: 80%;
+    color: white;
+    padding: 10px;
 }
 
-p{
-    font-size: 50px;
-    margin-left: 5%;
-    background-color: rgb(19, 14, 14);
-    display: inline;
-    padding: 1%;
-    border-radius: 5em;
+button{
+    border: 0;
+    background: rgba(0, 0, 0, 0.37);
+    border-radius: 100px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    color: white;
 }
+
+
+
+
+
